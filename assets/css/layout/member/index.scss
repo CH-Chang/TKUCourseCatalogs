@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+.m-member {
+  .memberLeft {
+    height: 100vh;
+
+    background-color: #b71f1f;
+
+    position: relative;
+    .logoArea {
+      display: flex;
+      flex-direction: row;
+      justify-items: center;
+      align-items: center;
+
+      position: absolute;
+      right: 20px;
+      top: 70%;
+
+      .logo {
+        width: 8vmin;
+        height: 8vmin;
+        background-color: white;
+        mask-image: url("~assets/img/logo-tku.svg");
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+
+      .titleArea {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: flex-start;
+
+        margin-left: 3vmin;
+
+        .mainTitle {
+          font-size: 3vmin;
+          font-weight: 100;
+
+          margin: 0;
+          line-height: 1;
+
+          color: white;
+
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -o-user-select: none;
+          user-select: none;
+        }
+        .subTitle {
+          font-size: 4vmin;
+          font-weight: 300;
+          margin: 0;
+          line-height: 1;
+
+          color: white;
+
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -o-user-select: none;
+          user-select: none;
+        }
+      }
+    }
+  }
+}
+
+body {
+  font-family: "Noto Sans TC";
+}

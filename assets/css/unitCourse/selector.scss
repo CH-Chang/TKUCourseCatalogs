@@ -1,0 +1,38 @@
+.m-selector {
+  width: 100%;
+
+  background-color: #b71f1f;
+
+  border-radius: 15px;
+
+  box-sizing: border-box;
+  padding: 15px 20px 15px 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+
+  z-index: 1;
+
+  margin-top: -60px;
+
+  position: relative;
+
+  .el-form-item {
+    width: 100%;
+    margin: 0;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .el-form-item__label {
+      width: 25%;
+      color: white;
+    }
+
+    .el-form-item__content {
+      width: 75%;
+    }
+  }
+}

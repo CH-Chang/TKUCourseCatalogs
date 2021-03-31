@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+.el-container {
+  padding: 0;
+  font-family: "Noto Sans TC";
+
+  .el-header {
+    background-color: #ffffff;
+    min-height: 220px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+
+    box-shadow: 0px 5px 50px rgb(204, 204, 204);
+
+    .m-header {
+      width: 1140px;
+      margin: 0 auto;
+    }
+  }
+  .el-main {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 100%;
+    min-height: 50vh;
+    overflow: visible;
+  }
+  .el-footer {
+    background-color: #f2f2f2;
+
+    min-height: 320px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+    .m-footer {
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+  }
+}

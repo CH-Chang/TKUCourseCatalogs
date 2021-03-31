@@ -1,0 +1,51 @@
+.m-selection {
+  width: 100%;
+
+  background-color: #b71f1f;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  z-index: 1;
+
+  margin-top: -60px;
+  position: relative;
+
+  color: #f3f3f3;
+
+  overflow: visible;
+
+  > dl {
+    > dt {
+      font-size: 2vmin;
+      line-height: 1;
+      > span {
+        text-transform: uppercase;
+        font-size: 1.5vmin;
+        line-height: 1;
+        font-weight: 100;
+      }
+    }
+    > dd {
+      height: 25px;
+      margin: 0;
+      margin-top: 5px;
+      margin-left: -15px;
+      margin-right: -15px;
+      padding: 5px 10px;
+
+      position: relative;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      > p {
+        margin: 0;
+        margin-left: 1vmin;
+        font-size: 1.8vmin;
+        > span {
+          font-size: 2vmin;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

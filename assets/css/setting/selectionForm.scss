@@ -1,0 +1,57 @@
+.m-selectionForm {
+  padding: 15px 20px 15px 20px;
+  box-sizing: border-box;
+
+  .tutorial {
+    > h1 {
+      font-size: 2.5vmin;
+    }
+    > p {
+      margin-left: 10px;
+      font-size: 1.8vmin;
+      > span {
+        font-size: 2vmin;
+      }
+    }
+  }
+
+  .form {
+    margin-top: 10px;
+    .el-form {
+      text-align: center;
+      .el-input {
+        .el-input__inner {
+          font-family: "Noto Sans TC";
+          font-weight: 300;
+          &:focus {
+            border: #b71f1f solid 1px;
+          }
+        }
+      }
+      .el-button--my {
+        border: #b71f1f solid 1px;
+        background-color: white;
+        color: #b71f1f;
+        font-family: "Noto Sans TC";
+
+        &:hover {
+          border: #b71f1f solid 1px;
+          background-color: #b71f1f;
+          color: white;
+        }
+      }
+      .el-select {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.el-select-dropdown {
+  .el-select-dropdown__item {
+    color: #8d8d8d;
+  }
+  .selected :hover {
+    color: #b71f1f;
+  }
+}

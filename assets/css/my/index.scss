@@ -1,0 +1,18 @@
+.m-my {
+  padding: 15px 20px 15px 20px;
+  box-sizing: border-box;
+
+  .el-tabs__nav {
+    .el-tabs__active-bar {
+      background-color: #b71f1f;
+    }
+    .el-tabs__item {
+      &:hover {
+        color: #b71f1f;
+      }
+    }
+    .is-active {
+      color: #b71f1f;
+    }
+  }
+}

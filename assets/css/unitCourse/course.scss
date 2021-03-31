@@ -1,0 +1,82 @@
+.m-course {
+  padding: 10px 15px 10px 15px;
+
+  .el-table {
+    width: 100%;
+
+    .raiderImg {
+      width: 30px;
+      height: 30px;
+
+      padding: 0px 5px;
+    }
+
+    .el-table__header-wrapper {
+      .highlight {
+        color: #b71f1f;
+      }
+    }
+    .el-button--my {
+      font-family: "Noto Sans TC";
+      border: #b71f1f solid 1px;
+      background-color: white;
+      color: #b71f1f;
+
+      &:hover {
+        border: #b71f1f solid 1px;
+        background-color: #b71f1f;
+        color: white;
+      }
+    }
+  }
+  .pagination {
+    margin-top: 30px;
+    text-align: center;
+    > .el-pagination {
+      > .el-pagination__jump {
+        > .el-input {
+          > input {
+            &:focus {
+              border-color: #b71f1f;
+            }
+          }
+        }
+      }
+      > .el-pager {
+        > li:not(.disabled).active {
+          background-color: #b71f1f;
+          color: white;
+        }
+
+        > .number {
+          &:hover {
+            color: #b71f1f;
+          }
+        }
+      }
+    }
+  }
+}
+.el-table-filter {
+  .is-focus {
+    .el-checkbox__inner {
+      border-color: #b71f1f;
+    }
+  }
+  .is-checked {
+    .el-checkbox__inner {
+      background-color: #b71f1f;
+      border-color: #b71f1f;
+    }
+    .el-checkbox__label {
+      color: #b71f1f;
+    }
+  }
+  .el-table-filter__bottom {
+    > button {
+      &:hover {
+        color: #b71f1f;
+      }
+    }
+  }
+}

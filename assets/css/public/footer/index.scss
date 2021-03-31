@@ -1,0 +1,39 @@
+.m-footer {
+  padding: 20px 0px;
+
+  .footerTop {
+    dl {
+      dt {
+        font-size: 1.8vmin;
+        color: #232323;
+      }
+      dd {
+        margin: 0;
+        > a {
+          font-size: 1.5vmin;
+          text-decoration: none;
+          color: #5e5e5e;
+
+          &:hover {
+            color: #b71f1f;
+          }
+        }
+      }
+    }
+  }
+
+  .footerBottom {
+    text-align: center;
+    margin-top: 10px;
+    > p {
+      font-size: 1vmin;
+      line-height: 1;
+      margin: 0;
+      color: #5e5e5e;
+    }
+    > small {
+      font-size: 1vmin;
+      color: #5e5e5e;
+    }
+  }
+}
